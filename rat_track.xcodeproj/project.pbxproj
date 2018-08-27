@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FF3702D20C8252F00DF1E6A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3702C20C8252F00DF1E6A /* main.cpp */; };
+		6F12A72020D17327001BC222 /* blur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F12A71E20D17327001BC222 /* blur.cpp */; };
+		6F12A72620D943E7001BC222 /* sub_bg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F12A72420D943E7001BC222 /* sub_bg.cpp */; };
+		6F24E49F21110761002C62AA /* try_convex_hull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F24E49D21110761002C62AA /* try_convex_hull.cpp */; };
+		6F38D16020FCE87F0054B712 /* sub_bg_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F38D15E20FCE87F0054B712 /* sub_bg_image.cpp */; };
+		6F5C641220E2808A00DE2108 /* algorithm _evaluation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C641020E2808A00DE2108 /* algorithm _evaluation.cpp */; };
+		6FAD24EC2126158700012DEE /* find_head.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FAD24EA2126158700012DEE /* find_head.cpp */; };
+		6FD9A90720D16910004A19B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9A90620D16910004A19B2 /* main.cpp */; };
+		6FE5174C20E6728400BB367A /* change_reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5174A20E6728400BB367A /* change_reference.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F12A71E20D17327001BC222 /* blur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blur.cpp; sourceTree = "<group>"; };
+		6F12A71F20D17327001BC222 /* blur.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = blur.hpp; sourceTree = "<group>"; };
+		6F12A72420D943E7001BC222 /* sub_bg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sub_bg.cpp; sourceTree = "<group>"; };
+		6F12A72520D943E7001BC222 /* sub_bg.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sub_bg.hpp; sourceTree = "<group>"; };
+		6F24E49D21110761002C62AA /* try_convex_hull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = try_convex_hull.cpp; sourceTree = "<group>"; };
+		6F24E49E21110761002C62AA /* try_convex_hull.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = try_convex_hull.hpp; sourceTree = "<group>"; };
+		6F38D15E20FCE87F0054B712 /* sub_bg_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sub_bg_image.cpp; sourceTree = "<group>"; };
+		6F38D15F20FCE87F0054B712 /* sub_bg_image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sub_bg_image.hpp; sourceTree = "<group>"; };
+		6F5C641020E2808A00DE2108 /* algorithm _evaluation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "algorithm _evaluation.cpp"; sourceTree = "<group>"; };
+		6F5C641120E2808A00DE2108 /* algorithm _evaluation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "algorithm _evaluation.hpp"; sourceTree = "<group>"; };
+		6FAD24EA2126158700012DEE /* find_head.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = find_head.cpp; sourceTree = "<group>"; };
+		6FAD24EB2126158700012DEE /* find_head.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = find_head.hpp; sourceTree = "<group>"; };
+		6FD9A90620D16910004A19B2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6FE5174A20E6728400BB367A /* change_reference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = change_reference.cpp; sourceTree = "<group>"; };
+		6FE5174B20E6728400BB367A /* change_reference.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = change_reference.hpp; sourceTree = "<group>"; };
 		6FF3702920C8252F00DF1E6A /* rat_track */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rat_track; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FF3702C20C8252F00DF1E6A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +78,21 @@
 		6FF3702B20C8252F00DF1E6A /* rat_track */ = {
 			isa = PBXGroup;
 			children = (
-				6FF3702C20C8252F00DF1E6A /* main.cpp */,
+				6FD9A90620D16910004A19B2 /* main.cpp */,
+				6F12A71E20D17327001BC222 /* blur.cpp */,
+				6F12A71F20D17327001BC222 /* blur.hpp */,
+				6F12A72420D943E7001BC222 /* sub_bg.cpp */,
+				6F12A72520D943E7001BC222 /* sub_bg.hpp */,
+				6F5C641020E2808A00DE2108 /* algorithm _evaluation.cpp */,
+				6F5C641120E2808A00DE2108 /* algorithm _evaluation.hpp */,
+				6FE5174A20E6728400BB367A /* change_reference.cpp */,
+				6FE5174B20E6728400BB367A /* change_reference.hpp */,
+				6F38D15E20FCE87F0054B712 /* sub_bg_image.cpp */,
+				6F38D15F20FCE87F0054B712 /* sub_bg_image.hpp */,
+				6F24E49D21110761002C62AA /* try_convex_hull.cpp */,
+				6F24E49E21110761002C62AA /* try_convex_hull.hpp */,
+				6FAD24EA2126158700012DEE /* find_head.cpp */,
+				6FAD24EB2126158700012DEE /* find_head.hpp */,
 			);
 			path = rat_track;
 			sourceTree = "<group>";
@@ -118,7 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FF3702D20C8252F00DF1E6A /* main.cpp in Sources */,
+				6FAD24EC2126158700012DEE /* find_head.cpp in Sources */,
+				6F38D16020FCE87F0054B712 /* sub_bg_image.cpp in Sources */,
+				6F24E49F21110761002C62AA /* try_convex_hull.cpp in Sources */,
+				6F5C641220E2808A00DE2108 /* algorithm _evaluation.cpp in Sources */,
+				6FD9A90720D16910004A19B2 /* main.cpp in Sources */,
+				6F12A72020D17327001BC222 /* blur.cpp in Sources */,
+				6FE5174C20E6728400BB367A /* change_reference.cpp in Sources */,
+				6F12A72620D943E7001BC222 /* sub_bg.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +249,53 @@
 		6FF3703120C8252F00DF1E6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/opencv/3.4.1_5/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/opencv/3.4.1_5/lib;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_videostab",
+					"-lopencv_aruco",
+					"-lopencv_bgsegm",
+					"-lopencv_bioinspired",
+					"-lopencv_ccalib",
+					"-lopencv_dnn_objdetect",
+					"-lopencv_dpm",
+					"-lopencv_face",
+					"-lopencv_photo",
+					"-lopencv_fuzzy",
+					"-lopencv_hfs",
+					"-lopencv_img_hash",
+					"-lopencv_line_descriptor",
+					"-lopencv_optflow",
+					"-lopencv_reg",
+					"-lopencv_rgbd",
+					"-lopencv_saliency",
+					"-lopencv_stereo",
+					"-lopencv_structured_light",
+					"-lopencv_phase_unwrapping",
+					"-lopencv_surface_matching",
+					"-lopencv_tracking",
+					"-lopencv_datasets",
+					"-lopencv_dnn",
+					"-lopencv_plot",
+					"-lopencv_xfeatures2d",
+					"-lopencv_shape",
+					"-lopencv_video",
+					"-lopencv_ml",
+					"-lopencv_ximgproc",
+					"-lopencv_calib3d",
+					"-lopencv_features2d",
+					"-lopencv_highgui",
+					"-lopencv_videoio",
+					"-lopencv_flann",
+					"-lopencv_xobjdetect",
+					"-lopencv_imgcodecs",
+					"-lopencv_objdetect",
+					"-lopencv_xphoto",
+					"-lopencv_imgproc",
+					"-lopencv_core",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -237,6 +326,7 @@
 				6FF3703220C8252F00DF1E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
